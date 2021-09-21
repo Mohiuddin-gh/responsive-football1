@@ -79,6 +79,8 @@ nav li:hover a{
     border: none;
     margin-top: 42px;
     font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px;
       
     }
  /* manue-bar End */
@@ -123,6 +125,7 @@ nav li:hover a{
     border: none;
     padding: 10px 24px;
     background-color: #E02C6D;
+    color:#FFFFFF
 
 }
 
@@ -146,8 +149,9 @@ nav li:hover a{
     height: 428px;
    
 }
+/* Banner area end  */
 
-/* Main conten */
+/* Main containt */
 
 
 .players{
@@ -191,26 +195,12 @@ nav li:hover a{
     margin-top: 5px;
 }
 
+/* bottom-information area start  */
 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 40px;
 }
-.f-banner img{
-    width: 567px;
-    height: 467px;
-    margin-right: 250px;
-    margin-left: 25px;
-
-}
-
-.f-banner img:hover {
-    
-    border: 5px solid #2271bb;
-
-}
-
-
 
 .bottom-banner{
     display: flex;
@@ -233,14 +223,6 @@ h1{
 .highlights:hover {
     border: 5px solid #2271bb;
 }
-
-.footer-section {
-    width: 483px;
-    height: 213px;
-    margin-top: 20px;
-    margin-left: 597px;
-    text-align: center;
-}
 .watch-now{
     font-size: 20px;
     font-weight: 500px;
@@ -248,8 +230,36 @@ h1{
     border: none;
     padding: 10px 24px;
     background-color: #E02C6D;
+}
+.f-banner img{
+    width: 567px;
+    height: 467px;
+    margin-right: 250px;
+    margin-left: 25px;
 
 }
+
+.f-banner img:hover {
+    
+    border: 5px solid #2271bb;
+
+}
+/* bottom-information area end  */
+
+/* Footnote area start  */
+
+.footer-section {
+    width: 483px;
+    height: 213px;
+    margin-top: 30px;
+    margin-left: 580px;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 10px;
+}
+
+
+
 
 
 .footer-section:hover{
@@ -258,8 +268,7 @@ h1{
 
 .logo img{
     width: 40%; 
+    margin-top: 10px;
 }
 
-.foot-note {
-   
-}
+
